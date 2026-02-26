@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MessTokenApp</string>
+    <string name="enter_roll">Enter Roll Number</string>
+    <string name="give_food">Give Food</string>
+</resources>

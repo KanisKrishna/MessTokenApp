@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "662016075735",
+    "project_id": "messtokenapp-a2a94",
+    "storage_bucket": "messtokenapp-a2a94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662016075735:android:bceb538dad4ef24baf4d92",
+        "android_client_info": {
+          "package_name": "com.example.messtokenapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm0lmllZ9Vo_SJ_9cEQA_DMdT55X4Vjcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
