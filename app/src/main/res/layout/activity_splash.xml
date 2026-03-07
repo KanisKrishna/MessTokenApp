@@ -2,14 +2,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black">
+    android:background="@drawable/splash_gradient">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MESS"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:layout_centerInParent="true"/>
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUSH"
+            android:textSize="72sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white" />
+            
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="express mess token"
+            android:textSize="18sp"
+            android:letterSpacing="0.1"
+            android:textColor="#F3F4F6"
+            android:layout_marginTop="0dp"/>
+            
+    </LinearLayout>
+
 </RelativeLayout>
